@@ -1,5 +1,5 @@
 // setup dynamic_field_label
-frappe.ui.form.on('ParentDoctype', {
+frappe.ui.form.on('Master', {
     setup: function(frm) {
         frm.set_query("party_type", function() {
             return{"filters": {"name": ["in", ["Customer", "Supplier", "Employee"]]}}

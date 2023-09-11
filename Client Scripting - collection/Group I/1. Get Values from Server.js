@@ -1,6 +1,5 @@
 // ## Get Values from Server
 // A standard way to query values from server side.
-
 frappe.call({
     method:"frappe.client.get_value",
     args: {

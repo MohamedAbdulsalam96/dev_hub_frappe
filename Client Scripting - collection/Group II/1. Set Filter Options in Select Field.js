@@ -1,4 +1,4 @@
-// Filter Options in Select Field:
+// Set Filter Options in Select Field:
 
 frappe.ui.form.on("Lead", "state", function(frm) {
     if(frm.doc.state == "Karnataka")
@@ -16,7 +16,7 @@ frappe.ui.form.on("Lead", "state", function(frm) {
     });
 
 // ~~~~~~~~~~~~~~~~~~~~~~
-// Filter Options in Select Field: (in childtable)
+// Set Filter Options in Select Field: (in childtable)
 // Need dynamic select option in childtable
 if(row.financier == "TEST"){
     frm.fields_dict.items.grid.update_docfield_property("status","options",["Loan Approved","Loan Appealing"]);
