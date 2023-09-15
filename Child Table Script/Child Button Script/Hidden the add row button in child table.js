@@ -1,4 +1,4 @@
-// Hidden the add row button in child table
+// Hidden the "add row" button in child table
 
 // Syntax
 frappe.ui.form.on('Your DocType', {
