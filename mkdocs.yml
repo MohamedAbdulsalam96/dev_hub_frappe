@@ -1,0 +1,36 @@
+site_name: Frappe Dev. Hub 
+theme:
+  name: material
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+nav:
+  - '1. Lesson':
+      - '0. Frappe Framework': '1. Lesson/ '
+      - '1. JS API': '1. Lesson/ '
+      - '2. Python API': '1. Lesson/ '
+      - '3. Portal Development': '1. Lesson/ '
+      - '4. Scripts (Independent topics)': '1. Lesson/ '
+      - '5. Some Special Methods': '1. Lesson/ '
+      - '6. Some Related Lessons': '1. Lesson/ '
+  - '2. Exercises and Practices': ''
+  - '3. Full Example': ''
+  - '4. New developed Functions & Features': ''
+  - '5. Some Specific common Customizations': ''
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
