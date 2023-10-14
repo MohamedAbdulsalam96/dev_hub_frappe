@@ -13,7 +13,7 @@
 
 ## using Mkdocs : 
 - To use Mkdocs, Follow these steps:>>
-- 
+
 **1) first: You need to create a python environment.**
   ```sh
   # windows
